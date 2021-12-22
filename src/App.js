@@ -4,8 +4,8 @@ import React,{useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
-  const url = 'http://localhost/imdb/index.php';
-  const genreurl = 'http://localhost/imdb/selectgenre.php'; //ryhmän valinta
+  const url = 'http://localhost/meijanpalautettavaPHP/index.php';
+  const genreurl = 'http://localhost/meijanpalautettavaPHP/selectgenre.php'; //ryhmän valinta
   const [eka, setEka] = useState("120"); //pituus minuutteita
   const [toka, setToka] = useState("5"); //keskimääränen arvio
   const [kolmas, setKolmas] = useState("2000"); //Teko vuosi
